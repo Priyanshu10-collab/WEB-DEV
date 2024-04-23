@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    background-color: black;
+    color: orange;
+    text-align: center;
+}
+#a1{
+    background-color: black;
+
+   
+}
+#logo{
+    color: orange;
+    font-weight: bold;
+    font-family: Italic;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+#a2,#a3,#a4{
+    height: 100px;
+    width: 100px;
+    border: 5px dotted green;
+}
+#a2{
+    background-color:rgba(255, 0, 0, 0.5);
+   display: inline;
+}
+#a3{
+    background-color: rgba(0, 255, 0, 0.5);
+    display: inline;
+}
+#a4{
+    background-color: rgba(0, 0, 255, 0.5);
+    display: inline;
+}
+footer{ 
+text-align: center;
+color: blue;
+background-color: brown;
+
+}

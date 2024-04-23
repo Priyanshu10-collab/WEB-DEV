@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Share Modal</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="ShareModal.css"> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <div class="circle1 bg-pink-700 rounded-full"></div>
+    <div class="circle2 bg-purple-700 rounded-full></div>
+    <div class="wrapper w-[100vw] h-[100vh] flex flex-col items-center justify-center bg-black gap-10">
+            <div class="card-wrapper w-[80%vw] h-[80%vh] flex flex-col items-center justify-center bg-stone-800 gap-10">
+                <div>
+                    <img src="office-worker-2d-cartoon-illustraton-on-white-background-h-free-photo.jpg" height="200px" width="200px" alt="user" >
+                </div>
+                <div class="user-name text-white">
+                    <h2>Priyanshu Pandey</h2>
+                </div>
+                <div class="designation text-gray-500">
+                    <h3>Web Developer & Designer</h3>
+                </div>
+                <button onclick="openModal()" class="btn-shar btn-card text-white border-2 border-[#bfbfbf] ">
+                <i class="fa-solid fa-share-nodes"></i>
+                <div class="flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5">
+                <div>share my profile</div>
+            </button>
+
+            <button class="flex text-[25px] text-[#344151] rounded-sm gap-12 p-3 px-5 border-2 border-[#bfbfbf] ">
+                <i class="fa-solid fa-user-plus"></i> follow me</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Modal Component-->
+    <div class="modal">
+        <div class="modal-header">
+            <h1>Share My Profile</h1>
+            <div>
+                <i onclick="closeModal()" class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+
+
+        <div>
+            <h3>Share this via</h3>
+            <div class="icon-container">
+                <a href="#" class="icon" id="facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="icon" id="Linkdin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="#" class="icon" id="instagram">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="#" class="icon" id="whatsapp">
+                    <i class="fa-brands fa-square-whatsapp"></i>
+                </a>
+                <a href="#" class="icon" id="telegram">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <!--Overlay-->
+    <div class="overlay" onclick="closeModal()"></div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="ShareModal.js"></script>
+</body>
+</html>

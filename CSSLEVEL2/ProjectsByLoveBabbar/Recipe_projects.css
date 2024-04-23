@@ -1,0 +1,101 @@
+#navlist{
+    width: 100%;
+    padding: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: none;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+.nav{
+    width: 100%;
+    padding: 2rem;
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: rgba(113, 113, 154,0.776); */
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#navlogo{
+    font-size: 2.8rem;
+    color: white;
+    margin-right: 600px;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+.navitems{
+    display: flex;
+    gap: 20px;
+    margin-left: 600px;
+}
+.footerbox{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    color: azure;
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footerbox p{
+    color: azure;
+    font-size: 2rem;
+}
+.containedBox{
+    width: 50%;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 1rem;
+    box-shadow: 0px 0px 30px black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightbox img{
+    height: 400px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+.ingbox{
+    font-size: 1.4rem;
+}
+.recipebox{
+    font-size: 1.1rem;
+}

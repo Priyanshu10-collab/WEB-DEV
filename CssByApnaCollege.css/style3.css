@@ -1,0 +1,31 @@
+p{
+    text-align: center;
+    font-weight: 50;
+    line-height: 25px;
+    text-transform: lowercase;
+
+}
+h1{
+    text-align: center;
+    text-decoration: red underline;
+}
+a{
+    text-decoration: none;
+}
+#one {
+    font-family: cursive;
+}
+#two{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#a1{
+    font-size: 25px;
+
+}
+#a2{
+    font-size: 100px;;
+}
+#a3{
+    font-size: 10px;
+
+}
